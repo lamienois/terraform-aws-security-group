@@ -15,5 +15,5 @@ output "security_group_owner_od" {
 
 output "security_group_tags_all" {
     description = "Security Group tags all"
-    value = aws_security_group.this.security_group_tags_all
+    value = aws_security_group.this.tags_all
 }
